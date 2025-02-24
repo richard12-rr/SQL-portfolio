@@ -8,10 +8,10 @@
 ## [Data-Understanding](#Data-Understanding)
 ## [Analysis-Query Writing](#Analysis-Query Writing)
 ## [Conclusion](#Conclusion)
-Introduction
+######Introduction
 In the competitive landscape of digital marketing, companies are increasingly leveraging data to fine-tune their advertising strategies and maximize their return on investment (ROI). This report explores the performance of digital advertising campaigns across various platforms using SQL to analyze key metrics. By assessing variables such as impressions, clicks, conversion rates, acquisition costs, and ROI, we aim to uncover patterns that can help improve campaign performance. Through this analysis, we will provide valuable insights on optimizing ad spend, identifying high-performing channels, and determining the most cost-effective campaigns.
 
-## Objectives
+###### Objectives
 1.	To familiarize with the dataset, review its structure, and identify key variables crucial for analyzing digital marketing campaigns.
 2.	To calculate essential metrics like click-through rates (CTR), total impressions, conversions, and cost per conversion, allowing for performance evaluation.
 3.	To rank campaigns by their effectiveness, focusing on ROI, conversion rates, and engagement scores to determine the most successful campaigns.
@@ -20,14 +20,14 @@ In the competitive landscape of digital marketing, companies are increasingly le
 6.	To provide actionable recommendations based on the data analysis to enhance future digital marketing strategies.
 
 
-## Tools
+###### Tools
 The following tools were used for data retrieval, analysis, and documentation:
 •	Microsoft Excel for storing the dataset
 •	PostgreSQL for SQL query execution.
 •	Google Drive for storing SQL scripts and reports.
 
-## Data Source:
-As part of my internship at HNG, I was supplied with a Marketing Campaign Dataset in CSV format. To better understand the data, I first loaded it into SQL for exploration and analysis. This step allowed me to familiarize myself with the dataset structure, identify key metrics, and prepare for deeper insights. The goal of my analysis is to extract actionable insights that will guide stakeholders in optimizing their marketing strategies and ad spend.
+###### Data Source:
+As part of my internship at HNG, I was supplied with a [Marketing Campaign Dataset](https://docs.google.com/spreadsheets/d/1LBGqmX9jT6HuJwHrVZXjIKPxqElkYFPg/edit?gid=751358393#gid=751358393https://docs.google.com/spreadsheets/d/1LBGqmX9jT6HuJwHrVZXjIKPxqElkYFPg/edit?gid=751358393#gid=751358393) in CSV format. To better understand the data, I first loaded it into SQL for exploration and analysis. This step allowed me to familiarize myself with the dataset structure, identify key metrics, and prepare for deeper insights. The goal of my analysis is to extract actionable insights that will guide stakeholders in optimizing their marketing strategies and ad spend.
 
 
 
@@ -40,7 +40,7 @@ As part of my internship at HNG, I was supplied with a Marketing Campaign Datase
 
 
 
-## Data Understanding:
+###### Data Understanding:
 Firstly I had to create a table in PostgreSQL called campaigndata to house my data and define the data types for the columns.
  
 
@@ -104,7 +104,7 @@ o	Reflects the return generated from the investment in a campaign. Analyzing ROI
 
 
 
- ## Analysis &  Query Writing 
+ ####### Analysis &  Query Writing 
 The following are questions that will guide my analysis and how I use SQL to extract insights from my data:
 1.	Calculate Total Impressions for Each Campaign
  
@@ -181,7 +181,7 @@ Email, Website, and Google Ads are the most effective channels for driving conve
 
 
 
-## Conclusion
+###### Conclusion
 The analysis of the 200,005 campaigns provides valuable insights into the effectiveness of various digital marketing efforts. Key findings indicate that NextGen Systems achieved the highest Return on Investment (ROI) at 800%, demonstrating strong revenue generation. In terms of reach, New York, Miami, and Chicago led in impressions, with over 219 million impressions each.
 Engagement trends revealed that men aged 18-24 had the highest interaction with ads, closely followed by women aged 25-34. Overall, the audience engagement scores were consistently high across all age groups. The overall Click-Through Rate (CTR) stood at 9.98%, significantly exceeding industry averages, highlighting strong user interest in the ads.
 Cost-effectiveness analysis identified Alpha Innovations as the top performer, with a cost per conversion of $34.22. Additionally, TechCorp and Alpha Innovations ran some of the highest CTR campaigns, exceeding 96.9%, proving their ability to drive clicks effectively.
