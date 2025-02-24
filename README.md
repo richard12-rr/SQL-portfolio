@@ -42,6 +42,9 @@ As part of my internship at HNG, I was supplied with a [Marketing Campaign Datas
 
 ###### Data Understanding:
 Firstly I had to create a table in PostgreSQL called campaigndata to house my data and define the data types for the columns.
+```sql
+![create table](https://github.com/richard12-rr/SQL-portfolio/blob/main/asset/images/Create%20table.PNG)
+```
  
 
 
