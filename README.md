@@ -130,6 +130,11 @@ FROM campaigndata
 GROUP BY Location
 ORDER BY totalimpressions DESC
 LIMIT 3;
+```sql
+SELECT target_audience, AVG(engagement_score) AS avgengagementscore
+FROM campaigndata
+GROUP BY target_audience
+ORDER BY avgengagementscore DESC
 ```
 
 There were 200,005 campaigns that were run in the data, that’s a lot of campaigns and 10,000 impressions was the highest impressions gotten.
@@ -145,7 +150,12 @@ Campaign with the Id 168 had the highest ROI(Return on Investment) at 800% and t
 New York is the location with the highest Impressions at 221.35 million impressions followed by Miami with 221.34 million impressions and Chicago is the least of the top 3 locations with 219 million impressions.
 
 4.	Calculate Average Engagement Score by Target Audience
- 
+ ```sql
+SELECT target_audience, AVG(engagement_score) AS avgengagementscore
+FROM campaigndata
+GROUP BY target_audience
+ORDER BY avgengagementscore DESC
+```
 On average, Men between 18-24 have the highest average engagement score (5.5150), meaning they interact the most with the marketing campaigns.
  Women between 25-34 come next with an engagement score of 5.4927, closely followed by Men 25-34 at 5.4918.
 All other ages group have an engagement score of 5.4868, suggesting that the overall audience has a relatively high interaction rate.
