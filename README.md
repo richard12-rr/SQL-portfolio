@@ -130,12 +130,7 @@ FROM campaigndata
 GROUP BY Location
 ORDER BY totalimpressions DESC
 LIMIT 3;
-```sql
-SELECT target_audience, AVG(engagement_score) AS avgengagementscore
-FROM campaigndata
-GROUP BY target_audience
-ORDER BY avgengagementscore DESC
-```
+
 
 There were 200,005 campaigns that were run in the data, that’s a lot of campaigns and 10,000 impressions was the highest impressions gotten.
 
@@ -152,6 +147,12 @@ ORDER BY totalimpressions DESC;
  
 Campaign with the Id 168 had the highest ROI(Return on Investment) at 800% and the company that ran that campaign is NextGen Systems. This means that for every $1 spent, the campaign generated $8 in return.
 3.	Find the Top 3 Locations with the Most Impressions
+```sql
+SELECT target_audience, AVG(engagement_score) AS avgengagementscore
+FROM campaigndata
+GROUP BY target_audience
+ORDER BY avgengagementscore DESC
+```
  
 New York is the location with the highest Impressions at 221.35 million impressions followed by Miami with 221.34 million impressions and Chicago is the least of the top 3 locations with 219 million impressions.
 
