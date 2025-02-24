@@ -118,6 +118,12 @@ FROM campaigndata
 GROUP BY campaign_id
 ORDER BY totalimpressions DESC;
 ```
+```sql
+SELECT campaign_id, SUM(impressions) AS totalimpressions
+FROM campaigndata
+GROUP BY campaign_id
+ORDER BY totalimpressions DESC;
+```
 
 There were 200,005 campaigns that were run in the data, that’s a lot of campaigns and 10,000 impressions was the highest impressions gotten.
 
