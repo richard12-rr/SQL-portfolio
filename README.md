@@ -118,17 +118,6 @@ FROM campaigndata
 GROUP BY campaign_id
 ORDER BY totalimpressions DESC;
 ```
-```sql
-SELECT campaign_id, SUM(impressions) AS totalimpressions
-FROM campaigndata
-GROUP BY campaign_id
-ORDER BY totalimpressions DESC;
-```
-```sql
-SELECT location, SUM(impressions) AS totalimpressions
-FROM campaigndata
-GROUP BY Location
-ORDER BY totalimpressions DESC
 LIMIT 3;
 
 
