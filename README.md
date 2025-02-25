@@ -27,7 +27,7 @@ The following tools were used for data retrieval, analysis, and documentation:
 •	Google Drive for storing SQL scripts and reports.
 
 ###### Data Source:
-As part of my internship at HNG, I was supplied with a [Marketing Campaign Dataset](https://docs.google.com/spreadsheets/d/1LBGqmX9jT6HuJwHrVZXjIKPxqElkYFPg/edit?gid=751358393#gid=751358393https://docs.google.com/spreadsheets/d/1LBGqmX9jT6HuJwHrVZXjIKPxqElkYFPg/edit?gid=751358393#gid=751358393) in CSV format. To better understand the data, I first loaded it into SQL for exploration and analysis. This step allowed me to familiarize myself with the dataset structure, identify key metrics, and prepare for deeper insights. The goal of my analysis is to extract actionable insights that will guide stakeholders in optimizing their marketing strategies and ad spend.
+The data is from [Marketing Campaign Dataset](https://docs.google.com/spreadsheets/d/1LBGqmX9jT6HuJwHrVZXjIKPxqElkYFPg/edit?gid=751358393#gid=751358393https://docs.google.com/spreadsheets/d/1LBGqmX9jT6HuJwHrVZXjIKPxqElkYFPg/edit?gid=751358393#gid=751358393) in CSV format. To better understand the data, I first loaded it into SQL for exploration and analysis. This step allowed me to familiarize myself with the dataset structure, identify key metrics, and prepare for deeper insights. The goal of my analysis is to extract actionable insights that will guide stakeholders in optimizing their marketing strategies and ad spend.
 
 
 
